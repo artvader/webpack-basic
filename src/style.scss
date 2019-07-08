@@ -1,29 +1,31 @@
-div {
-    color: lighten(red, 10%);
-    display:flex;
+.test-image {
+    width:21px;
+    height:21px;
     background:url(../images/brl.png);
   }
 
   @media screen and (min-width:1000px) {
-    div {
-      width:500px;
+    .test-text {
+      max-width:1000px;
+      margin:0 auto;
+      color:lighten(red, 40%);
     }
   }
 
 
-  p {
-    color:blue;
+  .test-text  {
+    color:lighten(red, 10%);
   }
 
   @media screen and (min-width:1400px) {
-    div {
-      width:1000px;
+    .test-text  {
+      color:lighten(red, 20%);
     }
   }
 
 
   @media screen and (min-width:1000px) {
-    li {
-      width:500px;
+    .test-text  {
+      color:lighten(red, 30%);
     }
   }
