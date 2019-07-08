@@ -1,0 +1,19 @@
+div {
+  color: #ff3333;
+  display: -webkit-box;
+  display: flex;
+  background: url(images/brl.png); }
+
+p {
+  color: blue; }
+
+@media screen and (min-width: 1000px) {
+  div {
+    width: 500px; }
+  li {
+    width: 500px; } }
+
+@media screen and (min-width: 1400px) {
+  div {
+    width: 1000px; } }
+

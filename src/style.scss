@@ -1,0 +1,29 @@
+div {
+    color: lighten(red, 10%);
+    display:flex;
+    background:url(../images/brl.png);
+  }
+
+  @media screen and (min-width:1000px) {
+    div {
+      width:500px;
+    }
+  }
+
+
+  p {
+    color:blue;
+  }
+
+  @media screen and (min-width:1400px) {
+    div {
+      width:1000px;
+    }
+  }
+
+
+  @media screen and (min-width:1000px) {
+    li {
+      width:500px;
+    }
+  }
